@@ -28,7 +28,7 @@ public class DataEditor : EditorWindow
         password = EditorGUILayout.TextField("Password :", password);
         GUILayout.Space(5f);
         userName = EditorGUILayout.TextField("User Name :", userName);
-        GUILayout.Space(5f);
+        GUILayout.Space(6f);
 
         
         EditorGUILayout.BeginHorizontal();
