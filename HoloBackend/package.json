@@ -1,0 +1,11 @@
+{
+  "name": "backend",
+  "displayName": "Hololens Backend",
+  "version": "1.0.0",
+  "unity": "2019.2",
+  "keywords": ["Backend"],
+  "description": "Backend for holo project",
+  "dependencies": {
+	
+   }
+}
