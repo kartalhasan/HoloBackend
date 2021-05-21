@@ -6,9 +6,6 @@ public class InputManager : MonoBehaviour
 {
     public DataManager dataManager;
 
-    private void Awake()
-    {
-    }
     void Start()
     {
         if (dataManager == null)

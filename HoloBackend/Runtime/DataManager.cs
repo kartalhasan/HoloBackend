@@ -21,11 +21,15 @@ public class DataManager : MonoBehaviour
 
     public List<Data> GetDataList()
     {
+        if (dataList == null)
+            Debug.LogError("Data List is Null");
         return dataList;
     }
 
     public Dictionary<string, Data> GetDataMapWithUserName()
     {
+        if (dataMap == null)
+            Debug.LogError("Data Map is Null");
         return dataMap;
     }
 }
