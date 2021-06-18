@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 [CreateAssetMenu(fileName = "User", menuName = "NewUser")]
 public class Data : ScriptableObject
-{
+{//yeni degidikik
     public Sprite sprite;
     public string PersonName;
     public string id;
